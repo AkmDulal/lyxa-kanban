@@ -41,7 +41,7 @@
 .read-the-docs {
   color: #888;
 }
-/* Custom scrollbar */
+
 ::-webkit-scrollbar {
   height: 8px;
   width: 8px;
@@ -77,7 +77,7 @@
 
 @media (pointer: coarse) {
   .task-card {
-    touch-action: none; /* Important for mobile drag */
+    touch-action: none; 
   }
   
   .task-card:active {
@@ -86,7 +86,7 @@
   }
 }
 
-/* Prevent text selection during drag */
+
 [draggable="true"] {
   user-select: none;
   -webkit-user-select: none;
