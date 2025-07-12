@@ -131,8 +131,8 @@ function App() {
   );
   return (
     <div className="min-h-screen bg-white">
-      <h1 className="text-3xl text-[#222] font-bold text-center mb-8">
-        Kanban Todo List{" "}
+      <h1 className=" !text-[18px] md:!text-3xl text-[#222] font-bold text-center py-8">
+        Kanban Board
       </h1>
       <DndContext
         sensors={sensors}
@@ -140,9 +140,9 @@ function App() {
         collisionDetection={closestCorners}
       >
         <div className="container mx-auto border border-[#2222] h-screen rounded-[10px] overflow-auto scrollbar-hidden">
-          <div className="p-4 text-[#333] flex justify-between">
+          <div className="p-4 text-[#333] md:flex hidden justify-between">
             <h3 className="text-[#333] text-[16px] font-bold"> Kanban View </h3>
-            <div className="flex text-[#333] ">
+            <div className="flex text-[#333]  ">
               <div className="avatar-list-stacked avatar-group-sm">
                 <span className="avatar avatar-rounded">
                   <img
