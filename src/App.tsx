@@ -131,7 +131,7 @@ function App() {
   );
   return (
     <div className="min-h-screen bg-white">
-      <h1 className=" !text-[18px] md:!text-3xl text-[#222] font-bold text-center py-8">
+      <h1 className=" !text-[18px] md:!text-3xl text-[#222] font-bold text-center md:py-8 py-4">
         Kanban Board
       </h1>
       <DndContext
