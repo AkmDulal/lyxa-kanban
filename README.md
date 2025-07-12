@@ -54,12 +54,11 @@ A responsive Kanban board built with React, TypeScript, and DnD Kit featuring ta
  - │   └── useLocalStorage.ts 
  - ├── types/
  - │   └── types.ts          
- - └── redux/
- -     ├── features
- -         └── task 
- -     └── store
- - └── utils/
- -     └── helpers.ts        
+ - │── redux/
+ - │    ├── features
+ - │    └── store
+ - │── utils/
+ - │    └── helpers.ts        
  - public/
  - ├── images/    
 
