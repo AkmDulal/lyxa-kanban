@@ -36,7 +36,7 @@ A responsive Kanban board built with React, TypeScript, and DnD Kit featuring ta
    git clone https://github.com/AkmDulal/lyxa-kanban.git
    cd react-kanban-board
 2. **Install dependencies**:   
-   -npm install OR yarn 
+   - npm install OR yarn 
 3. **Run the development server**:   
    - npm run dev OR yarn dev
 
