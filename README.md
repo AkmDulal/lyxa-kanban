@@ -15,7 +15,7 @@ A responsive Kanban board built with React, TypeScript, and DnD Kit featuring ta
 
 ## Tech Stack
 
-- **Frontend**: React 18 + TypeScript
+- **Frontend**: React 19.1.0 + TypeScript
 - **Drag-and-Drop**: [@dnd-kit](https://dndkit.com/)
 - **UI**: Tailwind CSS
 - **Date Handling**: react-datepicker
@@ -33,31 +33,36 @@ A responsive Kanban board built with React, TypeScript, and DnD Kit featuring ta
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/react-kanban-board.git
+   git clone https://github.com/AkmDulal/lyxa-kanban.git
    cd react-kanban-board
 2. **Install dependencies**:   
-   -npm install OR
-   -yarn 
+   -npm install OR yarn 
 3. **Run the development server**:   
-   - npm run dev OR
-   - yarn dev
+   - npm run dev OR yarn dev
 
 ### Project Structure
 
  - src/
- - ├── App.tsx               # Main application component
+ - ├── App.tsx               
+ - ├── App.css               
  - ├── components/
- - │   ├── Column.tsx        # Kanban column component
- - │   ├── TaskCard.tsx      # Individual task card
- - │   └── TaskFormModal.tsx # Task creation/edit form
+ - │   ├── Column.tsx        
+ - │   ├── TaskCard.tsx      
+ - │   ├── ContextMenu.tsx      
+ - │   └── TaskFormModal.tsx 
  - ├── hooks/
- - │   └── useLocalStorage.ts # Custom localStorage hook
+ - │   └── useLocalStorage.ts 
  - ├── types/
- - │   └── types.ts          # Type definitions
+ - │   └── types.ts          
+ - └── redux/
+ -     ├── features
+ -         └── task 
+ -     └── store
  - └── utils/
- -     └── helpers.ts        # Utility functions
+ -     └── helpers.ts        
  - public/
- - ├── images/               # Avatar images
+ - ├── images/    
+
 
 ```js
 export default tseslint.config([
