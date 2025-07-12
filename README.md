@@ -36,30 +36,28 @@ A responsive Kanban board built with React, TypeScript, and DnD Kit featuring ta
    git clone https://github.com/yourusername/react-kanban-board.git
    cd react-kanban-board
 2. **Install dependencies**:   
-   npm install 
-   # or
-   yarn 
+   -npm install OR
+   -yarn 
 3. **Run the development server**:   
-   npm run dev
-   # or
-   yarn dev
+   - npm run dev OR
+   - yarn dev
 
 ### Project Structure
 
-  src/
-  ├── App.tsx               # Main application component
-  ├── components/
-  │   ├── Column.tsx        # Kanban column component
-  │   ├── TaskCard.tsx      # Individual task card
-  │   └── TaskFormModal.tsx # Task creation/edit form
-  ├── hooks/
-  │   └── useLocalStorage.ts # Custom localStorage hook
-  ├── types/
-  │   └── types.ts          # Type definitions
-  └── utils/
-      └── helpers.ts        # Utility functions
-  public/
-  ├── images/               # Avatar images
+ - src/
+ - ├── App.tsx               # Main application component
+ - ├── components/
+ - │   ├── Column.tsx        # Kanban column component
+ - │   ├── TaskCard.tsx      # Individual task card
+ - │   └── TaskFormModal.tsx # Task creation/edit form
+ - ├── hooks/
+ - │   └── useLocalStorage.ts # Custom localStorage hook
+ - ├── types/
+ - │   └── types.ts          # Type definitions
+ - └── utils/
+ -     └── helpers.ts        # Utility functions
+ - public/
+ - ├── images/               # Avatar images
 
 ```js
 export default tseslint.config([
